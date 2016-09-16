@@ -1,0 +1,21 @@
+uuid: b3a49e9c-c05a-4ea5-bfbe-262fb8469acc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_eventbright
+    - node.type.event
+  module:
+    - text
+id: node.event.field_eventbright
+field_name: field_eventbright
+entity_type: node
+bundle: event
+label: EventBright
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text
