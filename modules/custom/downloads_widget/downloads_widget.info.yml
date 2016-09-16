@@ -1,0 +1,8 @@
+name: Downloads Widget
+type: module
+description: This is my test File Download Widget
+core: 8.x
+package: Custom
+dependencies:
+  - file
+  - file_entity
